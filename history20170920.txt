@@ -223,6 +223,8 @@
   223  cat git-download.sh
   224  git-download
   225  echo $PATH
+view all curent paths to scripts
+
   226  whereis ls
   227  la -l
   228  ls -l /bin.ls
@@ -233,7 +235,9 @@
   233  git-download
   234  ls
   235  pwd
+view curent path
   236  PATH=$PATH:/home/arnold/Documents/darbi
+Added another file path in which scripts can be executed
   237  echo $PATH
   238  git-download
   239  git-download.sh
@@ -241,26 +245,54 @@
   241  ls -l git-download
   242  ls -l git-download.sh
   243  ls -l /bin/ls
+wiews the "/bin/ls" folder
+
   244  chmod 744 git-download.sh
+changed the premisions on "git-download.sh" file so it can be executed
+
   245  ls -l
   246  git-download
   247  git-download.sh
   248  ls -l
   249  cat git-download.sh
+read the "git-download.sh" file to check it
   250  mv git-download.sh git-download
+renamed 'git-download.sh' to 'git-download' with the move command. I know its wierd!
+
   251  ls -l
   252  git-download
   253  ls -l DMI
   254  cd DMI
   255  ls -l
   256  ls -la
+
+
   257  mv ../git-download ./
+moved 'git-download' from previous folder to current folder
+
   258  ls -l
+folder contents check
+
   259  PATH=$PATH:~/Documents/darbi/DMI
+added DMI folder as a path in which scripts can be stored and executed from
+
   260  git-download
+launched script 'git-download'
+
   261  ls -l
-  262  rm -rf DMI
+folder contents
+ 
+ 262  rm -rf DMI
+deleated the DMI folder with all its contents
+
   263  ls -lls -l
+tipo
+
   264  nano git-upload
+wrote the 'git-upload' script
+
   265  ls -l
+checked the contents of the folder
+
   266  history > history20170920.txt
+wrote down all the recorded history in a new txt file
