@@ -1,5 +1,5 @@
 #!/bin/bash
 git add .
-git commit -m "2017.09.20_16:05"
+x=$(date "+%d/%m/%y_%H:%M")
+git commit -m $x
 git push origin master
-
