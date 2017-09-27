@@ -479,3 +479,89 @@
   479  rm history-test.txt
   480  nano git-upload
   481  history > history27.09.2017.txt
+  482  ls -la
+  483  git-upload
+  484  ls -la
+  485  echo $0
+  486  $#
+  487  echo $#
+  488  echo $*
+  489  echo $?
+  490  echo $$
+  491  echo $!
+  492  nano shell-examples
+  493  ls -la
+  494  chmod 744 shell-examples
+  495  ls -la
+  496  shell-examples 
+  497  nano shell-examples
+  498  shell-examples 
+  499  nano shell-examples
+  500  shell-examples 
+  501  shell-examples arg1
+  502  shell-examples arg1 arg2
+  503  shell-examples arg1 arg2 arg3
+  504  nano shell-examples
+  505  shell-examples arg1 arg2 arg3
+  506  nano shell-examples
+  507  shell-examples arg1 arg2 arg3
+  508  nano shell-examples
+  509  shell-examples arg1 arg2 arg3
+  510  nano shell-examples
+  511  shell-examples arg1 arg2 arg3
+  512  nano shell-examples
+  513  shell-examples arg1 arg2 arg3
+  514  ls -la
+  515  nano shell-examples
+  516  shell-examples 
+  517  nano shell-examples
+  518  shell-examples arg1 arg2 arg3
+  519  nano shell-examples
+  520  shell-examples arg1 arg2 arg3
+  521  ls -la
+  522  nano git-upload
+  523  nano shell-examples
+  524  shell-examples 
+  525  nano shell-examples
+  526  shell-examples arg1 arg2 arg3
+  527  nano combine
+  528  chmod 744 combine
+  529  ls -la
+  530  combine 1 2
+  531  nano combine
+  532  rm combine
+  533  nano shell-examples 
+  534  shell-examples arg1 arg2 arg3
+  535  nano shell-examples 
+  536  shell-examples arg1 arg2 arg3
+  537  nano shell-examples 
+  538  shell-examples arg1 arg2 arg3
+  539  nano shell-examples 
+  540  shell-examples arg1 arg2 arg3
+  541  nano shell-examples 
+  542  shell-examples arg1 arg2 arg3
+  543  nano shell-examples 
+  544  shell-examples arg1 arg2 arg3
+  545  nano shell-examples 
+  546  shell-examples arg1 arg2 arg3
+  547  nano shell-examples 
+  548  shell-examples arg1 arg2 arg3
+  549  nano shell-examples 
+  550  shell-examples arg1 arg2 arg3
+  551  nano shell-examples 
+  552  shell-examples arg1 arg2 arg3
+  553  nano shell-examples 
+  554  nano combine
+  555  chmod 744 combine
+  556  ls -la
+  557  combine
+  558  combine 1 2
+  559  combine 1 2 5 7 865
+  560  shell-examples arg1 arg2 arg3
+  561  nano shell-examples 
+  562  ls -la
+  563  git-upload
+  564  nano shell-examples 
+  565  nano git-upload
+  566  ls -la
+  567  history > history27.09.2017.txt
