@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#1. example
+
+#echo "the name of the currently running script : "$0
+#echo "The number of curently asigned arguments to script:"$#
+#echo "A list of arguments 1: "$*
+#echo "A list of arguments 2: "$@
+##echo "last command's result(code of error): "$?
+#echo "The nummber of the action: "$$
+##echo "proccess number of the last background action: "$!
+#echo "First argument given: "$1
+#echo "Second argument given: "$2
+#echo $1$2
+
+#2. example
+
+echo $*
+kartas_numurs=1
+for arguments in $*
+do
+	echo $kartas_numurs". arguments - "$arguments
+	let kartas_numurs++
+done

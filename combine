@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for x in $*
+do
+	let y=y+x
+done
+echo $y
