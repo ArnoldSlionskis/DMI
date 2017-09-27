@@ -1,4 +1,5 @@
 #!/bin/bash
+git config --global user.email arnolds.slionskis@gmail.com
 git add .
 x=$(date "+%d/%m/%y_%H:%M")
 git commit -m $x

@@ -385,18 +385,97 @@
   385  history > history2017.09.21.txt
   386  ls
   387  git-upload
-  388  ls
-  389  cd Documents
-  390  ls
-  391  cd darbi
-  392  ls
-  393  cd DMI
-  394  ld
-  395  ls -l
-  396  nano git-upload
-  397  x=$(date "+%d-%m-%y")
-  398  history > history-$x.txt
-  399  x=$(date "+%d-%m-%y")
-  400  history > history-$x.txt
-  401  x=$(date "+%d-%m-%y")
-  402  history > history-$x.txt
+  388  nano git-UHistory
+  389  ls -l
+  390  chmod 744 git-UpHistory
+  391  ls -l
+  392  git-UpHistory
+  393  rm git-UpHistory
+  394  ls -l
+  395  git-download
+  396  ls -l
+  397  cd DMI
+  398  ls -l
+  399  cd ..
+  400  rm -r DMI
+  401  man rm
+  402  rm -f DMI
+  403  ls -l
+  404  man rm
+  405  rm -rf DMI
+  406  ls -l
+  407  ls -la
+  408  name="arnold"
+  409  echo $name
+  410  echo name
+  411  echo $name
+  412  readonly name
+  413  echo $name
+  414  name="Geret"
+  415  unset name
+  416  detach name
+  417  ls -la
+  418  nano git-UpHistory
+  419  ls -la
+  420  nano .git-upload.swp 
+  421  rm .git-upload.swp 
+  422  ls -la
+  423  git-upload
+  424  ls -la
+  425  chmod 744 git-UpHistory
+  426  ls -la
+  427  git-UpHistory
+  428  nano git-UpHistory 
+  429  git-UpHistory
+  430  nano git-UpHistory 
+  431  git-UpHistory
+  432  nano git-UpHistory 
+  433  git-UpHistory
+  434  nano git-UpHistory 
+  435  git-UpHistory
+  436  nano git-UpHistory 
+  437  ls -la
+  438  chmod 744 Create-History
+  439  ls -la
+  440  nano Create-History
+  441  Create-History
+  442  nano Create-History
+  443  Create-History
+  444  nano Create-History
+  445  Create-History
+  446  nano Create-History
+  447  Create-History
+  448  nano Create-History
+  449  Create-History
+  450  nano Create-History
+  451  Create-History
+  452  nano Create-History
+  453  Create-History
+  454  ls-la
+  455  ls -la
+  456  nano Create-History
+  457  Create-History
+  458  ls -la
+  459  git-upload
+  460  ls -la
+  461  cat history-27-09-17.txt
+  462  nano history-27-09-17.txt
+  463  nano Create-History
+  464  Create-History 
+  465  ls -la
+  466  nano history-27-09-17.txt
+  467  Create-History 
+  468  nano history-27-09-17.txt
+  469  nano Create-History 
+  470  nano create-history
+  471  chmod 744 create-history
+  472  ls -la
+  473  create-history
+  474  ls -la
+  475  nano history-27-09-17.txt
+  476  Create-History 
+  477  nano history-27-09-17.txt
+  478  rm create-history 
+  479  rm history-test.txt
+  480  nano git-upload
+  481  history > history27.09.2017.txt
