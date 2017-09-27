@@ -1,0 +1,3 @@
+#!/bin/bash
+x=$(date "+%d-%m-%y")
+history > history-$x.txt
