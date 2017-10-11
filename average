@@ -1,0 +1,14 @@
+#!/bin/bash
+
+sum=$(echo ".3 + 1.12" | bc -l)
+
+echo "enter a numbers once you have enought numbers input s"
+	until [ "$x"!="s" ]
+	do
+	count=$(( count++))
+	read x
+	y=$(echo "$y + $x" | bc -l)
+	done
+	ans=$(echo "$y / $count" | bc -l)
+	echo $ans
+

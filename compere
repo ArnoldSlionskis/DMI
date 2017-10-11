@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "enter the 2 boiz"
+
+read x
+read y
+
+	if [ $x \> $y ]
+	then
+		echo "$x is the big boi"
+	elif [ $x \< $y ]
+	then
+		echo "$y is the big boi"
+	else
+		echo "No Big boiz observed"
+	fi

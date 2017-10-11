@@ -1,7 +1,33 @@
 #!/bin/bash
 
-for x in $*
-do
-	let y=y+x
-done
-echo $y
+echo "enter the first number"
+
+read x
+
+echo "enter the second number"
+
+read y
+
+echo "enter function: 1 is +; 2 is -; 3 is *; 4 is /"
+
+read z
+
+	if [ $z = 1 ]
+	then
+		ans=$(( x + y ))
+		echo "answer is $ans"
+	elif [ $z = 2 ]
+	then
+		ans=$(( x - y ))
+		echo "answer is $ans"
+	elif [ $z = 3 ]
+	then
+		ans=$(( x * y ))
+		echo "answer is $ans"
+	elif [ $z = 4 ]
+	then
+		ans=$(( x / y ))
+		echo "answer is $ans"
+	else
+		echo "U done guffed"
+	fi

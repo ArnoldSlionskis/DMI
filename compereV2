@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo "enter three numbers"
+read x
+read y
+read z
+
+	if [ $x \> $y ]
+	then
+		c=$x
+	else
+		c=$y
+	fi
+	if [ $z \> $c ]
+	then
+		ans=$z
+	else
+		ans=$c
+	fi
+	echo "the bigest number is $ans"

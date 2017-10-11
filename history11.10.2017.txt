@@ -1,0 +1,650 @@
+    1  pwd
+    2  ..
+    3  ls la
+    4  ls- la
+    5  ls-la
+    6  pwd
+    7  ls~
+    8  ls ~
+    9  cd Downloads
+   10  pwd
+   11  ls ~
+   12  pwd
+   13  ..
+   14  cd ..
+   15  pwd
+   16  firefox &
+   17  pwd
+   18  whoami
+   19  who
+   20  Is
+   21  ls
+   22  cd Downloads
+   23  ls
+   24  cd ..
+   25  history
+   26  man
+   27  echo
+   28  >
+   29  cat
+   30  echo $home
+   31  echo $HOME
+   32  x = 5
+   33  echo This is a test
+   34  echo Good job you fucking degenerate
+   35  pwd
+   36  ls
+   37  cd Downloads
+   38  pwd
+   39  ls
+   40  mkdir test
+   41  ls
+   42  rmdir test
+   43  ls
+   44  echo $0
+   45  ls
+   46  cat test1
+   47  nano test2
+   48  ls
+   49  cat test2
+   50  cat /etc/*-relese
+   51  echo $0
+   52  who
+   53  ls
+   54  crdir test
+   55  mkdir test
+   56  ls
+   57  man ls
+   58  ls -l
+   59  ls -a
+   60  ls -la
+   61  cd ..
+   62  pwd
+   63  ls
+   64  ls -la
+   65  cd Download
+   66  cd Downloads
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd Documents
+   71  mkdir darbi
+   72  ls
+   73  ls -l
+   74  cd darbi
+   75  pwd
+   76  history
+   77  history > history.txt
+   78  ls
+   79  ls -la
+   80  cat history
+   81  cat history.txt
+   82  nm-connection-editor 
+   83  cd Documents
+   84  cd darbi
+   85  pwd
+   86  ls -la
+   87  git init
+   88  sudo apt install git
+   89  ls
+   90  git init
+   91  git add.
+   92  git add .
+   93  git config --global user.name arnolds.slionskis@gmail.com
+   94  ls -la
+   95  git commit -m "2017.09.13_14:00"
+   96  git config --global user.email arnolds.slionskis@gmail.com
+   97  ls -la
+   98  git commit -m "2017.09.13_14:00"
+   99  git remote add origin https://github.com/ArnoldSlionskis/DMI.git
+  100  git push origin master
+  101  cd ..
+  102  ls
+  103  cd ..
+  104  cd Documents
+  105  cd darbi
+  106  mkdir ApaksDarbi
+  107  la -l
+  108  cd ApaksDarbi
+  109  history > vesture.txt
+  110  ls
+  111  cd..
+  112  cd ..
+  113  ls -l
+  114  rmdir ApaksDarbi
+  115  men rmdir
+  116  man rmdir
+  117  rm ApaksDarbi/
+  118  rm ApaksDarbi
+  119  man rm
+  120  rm -r ApaksDarbi
+  121  ls -l
+  122  ls -la
+  123  cd /
+  124  ls
+  125  cd
+  126  ls -la
+  127  ls -l
+  128  nano
+  129  x=10
+  130  echo x is $x
+  131  echo -e you /eare /ea /efucking /epleb
+  132  echo -e "you /eare /ea /efucking /epleb"
+  133  echo -e "you /bare /ba /bfucking /bpleb"
+  134  echo -e "you \bare \ba \bfucking \bpleb"
+  135  echo -e "Learn \nto \nfucking \nprogram"
+  136  echo -e "Big \tFucking \tSpaces"
+  137  echo -e "You \aFucking pleb"
+  138  echo *
+  139  echo "Test1" > test
+  140  ls
+  141  cat test
+  142  rm test
+  143  ls
+  144  cd music
+  145  cd Music
+  146  ls
+  147  ls-la
+  148  ls -la
+  149  cd ..
+  150  echo test \ntest
+  151  echo -e "test1\bTest"
+  152  echo -e "\n\tTecmint \n\tis \n\ta \n\tcommunity \n\tof \n\tLinux \n\tNerds"
+  153  echo -e "Tecmint is a community of \aLinux Nerds"
+  154  echo *
+  155  echo "test" > test1
+  156  ls
+  157  cat test1
+  158  rm test1
+  159  ls
+  160  echo "test" > test
+  161  ls -l
+  162  rm test
+  163  ls -l
+  164  man ls > ls_komandas_apraksts
+  165  ls -la
+  166  ls -l
+  167  cat ls_komandas_apraksts
+  168  ls -l
+  169  echo "test" > a.txt
+  170  cat a.txt > d.txt
+  171  echo "test2" > b.txt
+  172  cat b.txt > a.txt
+  173  cat .txt
+  174  cat a.txt
+  175  cat d.txt
+  176  cat a.txt > d.txt
+  177  cat b.txt >> d.txt
+  178  ls -l
+  179  cat d.txt
+  180  cp d.txt dd.txt
+  181  ls -l
+  182  man cp
+  183  cp a.txt Documents/c2.txt
+  184  cd Documents
+  185  ls
+  186  cat darbi
+  187  car c2.txt
+  188  cat c2.txt
+  189  rm c2.txt
+  190  cd ..
+  191  ls
+  192  ls -l
+  193  man m
+  194  man move
+  195  man mo
+  196  cd /
+  197  mv ~/a.txt Documents/
+  198  ls -l
+  199  mv ~/a.txt ~/Documents/
+  200  cd ~
+  201  cd Documents
+  202  ls
+  203  rm a.txt
+  204  cd datbi
+  205  cd darbi
+  206  ls
+  207  ls -la
+  208  git add .
+  209  history > history.txt
+  210  ls
+  211  ls -la
+  212  git add .
+  213  git commit -m "2017.09.13_16:06"
+  214  git push master original
+  215  git push master origin
+  216  git push origin master
+  217  firefox &
+  218  ls
+  219  cd Documents
+  220  ls
+  221  cd darbi
+  222  nano git-download.sh
+  223  ls -l
+  224  cat git-download.sh
+  225  git-download
+  226  echo $PATH
+  227  whereis ls
+  228  la -l
+  229  ls -l /bin.ls
+  230  ls -l /bin/ls
+  231  cat /bin/ls
+  232  ls -l
+  233  pwd
+  234  git-download
+  235  ls
+  236  pwd
+  237  PATH=$PATH:/home/arnold/Documents/darbi
+  238  echo $PATH
+  239  git-download
+  240  git-download.sh
+  241  ls -l
+  242  ls -l git-download
+  243  ls -l git-download.sh
+  244  ls -l /bin/ls
+  245  chmod 744 git-download.sh
+  246  ls -l
+  247  git-download
+  248  git-download.sh
+  249  ls -l
+  250  cat git-download.sh
+  251  mv git-download.sh git-download
+  252  ls -l
+  253  git-download
+  254  ls -l DMI
+  255  cd DMI
+  256  ls -l
+  257  ls -la
+  258  mv ../git-download ./
+  259  ls -l
+  260  PATH=$PATH:~/Documents/darbi/DMI
+  261  git-download
+  262  ls -l
+  263  rm -rf DMI
+  264  ls -lls -l
+  265  nano git-upload
+  266  ls -l
+  267  history > history20170920.txt
+  268  ls -l
+  269  chmod 744 git-upload
+  270  ls -l
+  271  cat git-upload
+  272  git-upload
+  273  nano history20170920.txt 
+  274  ls -l
+  275  nano git-upload
+  276  git-upload
+  277  firefox $
+  278  firefox
+  279  ls
+  280  nano git-upload
+  281  nano test1.txt
+  282  ls
+  283  git-upload
+  284  ls -l
+  285  git-upload
+  286  git-download
+  287  echo $PATH
+  288  PATH=$PATH:~/Documents/darbi/DMI
+  289  echo $PATH
+  290  git-upload
+  291  nano git-upload
+  292  git-upload
+  293  ls
+  294  nano git-upload 
+  295  git-upload
+  296  nano AskName
+  297  ls
+  298  AskName
+  299  chmod 744 AskName
+  300  ls
+  301  AskName
+  302  nano AskName 
+  303  AskName
+  304  nano AskName 
+  305  AskName
+  306  nano AskName 
+  307  AskName
+  308  nano AskName 
+  309  nano combine
+  310  ls
+  311  git-upload
+  312  man date
+  313  date "+%d/%m/%y_%H:%M"
+  314  ls
+  315  cd Documents
+  316  ls
+  317  cd darbi
+  318  cd
+  319  cd Documents
+  320  cd darbi
+  321  ls
+  322  cd DMI
+  323  ls
+  324  x = date "+%d/%m/%y_%H:%M"
+  325  x=$date "+%d/%m/%y_%H:%M"
+  326  x=$(date "+%d/%m/%y_%H:%M")
+  327  echo x
+  328  echo $x
+  329  $x
+  330  x
+  331  firefox$
+  332  firefox $
+  333  firefox #
+  334  cd Documents
+  335  cd darbi
+  336  nano combine
+  337  ls -l
+  338  cd DMI
+  339  ls -l
+  340  AskName
+  341  gedit ~/.bashrc
+  342  sudo su
+  343  echo $PATH
+  344  getit ~/.profile
+  345  getit~/.profile
+  346  gedit ~/.profile
+  347  ls
+  348  ls
+  349  cd Documents
+  350  cd darbi
+  351  cd DMI
+  352  cd Documents
+  353  cd darbi
+  354  ls
+  355  cd DMI
+  356  ls
+  357  AskName
+  358  ls
+  359  nano AskName
+  360  echo $PATH
+  361  ls
+  362  cd Documents
+  363  cd darbi
+  364  ls
+  365  cd DMI
+  366  ls
+  367  nano combine
+  368  chmod 744 combine
+  369  ls
+  370  combine
+  371  nano combine
+  372  combine
+  373  nano combine
+  374  combine
+  375  nano combine
+  376  combine
+  377  nano combine
+  378  combine
+  379  nano combine
+  380  combine
+  381  nano combine
+  382  ls
+  383  rm combine
+  384  ls
+  385  history > history2017.09.21.txt
+  386  ls
+  387  git-upload
+  388  ls
+  389  cd Documents
+  390  ls
+  391  cd darbi
+  392  ls
+  393  cd DMI
+  394  ld
+  395  ls -l
+  396  nano git-upload
+  397  x=$(date "+%d-%m-%y")
+  398  history > history-$x.txt
+  399  x=$(date "+%d-%m-%y")
+  400  history > history-$x.txt
+  401  x=$(date "+%d-%m-%y")
+  402  history > history-$x.txt
+  403  ls -la
+  404  nano shell-examples 
+  405  nano git-UHistory
+  406  ls -l
+  407  chmod 744 git-UpHistory
+  408  ls -l
+  409  git-UpHistory
+  410  rm git-UpHistory
+  411  ls -l
+  412  git-download
+  413  ls -l
+  414  cd DMI
+  415  ls -l
+  416  cd ..
+  417  rm -r DMI
+  418  man rm
+  419  rm -f DMI
+  420  ls -l
+  421  man rm
+  422  rm -rf DMI
+  423  ls -l
+  424  ls -la
+  425  name="arnold"
+  426  echo $name
+  427  echo name
+  428  echo $name
+  429  readonly name
+  430  echo $name
+  431  name="Geret"
+  432  unset name
+  433  detach name
+  434  ls -la
+  435  nano git-UpHistory
+  436  ls -la
+  437  nano .git-upload.swp 
+  438  rm .git-upload.swp 
+  439  ls -la
+  440  git-upload
+  441  ls -la
+  442  chmod 744 git-UpHistory
+  443  ls -la
+  444  git-UpHistory
+  445  nano git-UpHistory 
+  446  git-UpHistory
+  447  nano git-UpHistory 
+  448  git-UpHistory
+  449  nano git-UpHistory 
+  450  git-UpHistory
+  451  nano git-UpHistory 
+  452  git-UpHistory
+  453  nano git-UpHistory 
+  454  ls -la
+  455  chmod 744 Create-History
+  456  ls -la
+  457  nano Create-History
+  458  Create-History
+  459  nano Create-History
+  460  Create-History
+  461  nano Create-History
+  462  Create-History
+  463  nano Create-History
+  464  Create-History
+  465  nano Create-History
+  466  Create-History
+  467  nano Create-History
+  468  Create-History
+  469  nano Create-History
+  470  Create-History
+  471  ls-la
+  472  ls -la
+  473  nano Create-History
+  474  Create-History
+  475  ls -la
+  476  git-upload
+  477  ls -la
+  478  cat history-27-09-17.txt
+  479  nano history-27-09-17.txt
+  480  nano Create-History
+  481  Create-History 
+  482  ls -la
+  483  nano history-27-09-17.txt
+  484  Create-History 
+  485  nano history-27-09-17.txt
+  486  nano Create-History 
+  487  nano create-history
+  488  chmod 744 create-history
+  489  ls -la
+  490  create-history
+  491  ls -la
+  492  nano history-27-09-17.txt
+  493  Create-History 
+  494  nano history-27-09-17.txt
+  495  rm create-history 
+  496  rm history-test.txt
+  497  nano git-upload
+  498  history > history27.09.2017.txt
+  499  ls -la
+  500  git-upload
+  501  ls -la
+  502  echo $0
+  503  $#
+  504  echo $#
+  505  echo $*
+  506  echo $?
+  507  echo $$
+  508  echo $!
+  509  nano shell-examples
+  510  ls -la
+  511  chmod 744 shell-examples
+  512  ls -la
+  513  shell-examples 
+  514  nano shell-examples
+  515  shell-examples 
+  516  nano shell-examples
+  517  shell-examples 
+  518  shell-examples arg1
+  519  shell-examples arg1 arg2
+  520  shell-examples arg1 arg2 arg3
+  521  nano shell-examples
+  522  shell-examples arg1 arg2 arg3
+  523  nano shell-examples
+  524  shell-examples arg1 arg2 arg3
+  525  nano shell-examples
+  526  shell-examples arg1 arg2 arg3
+  527  nano shell-examples
+  528  shell-examples arg1 arg2 arg3
+  529  nano shell-examples
+  530  shell-examples arg1 arg2 arg3
+  531  ls -la
+  532  nano shell-examples
+  533  shell-examples 
+  534  nano shell-examples
+  535  shell-examples arg1 arg2 arg3
+  536  nano shell-examples
+  537  shell-examples arg1 arg2 arg3
+  538  ls -la
+  539  nano git-upload
+  540  nano shell-examples
+  541  shell-examples 
+  542  nano shell-examples
+  543  shell-examples arg1 arg2 arg3
+  544  nano combine
+  545  chmod 744 combine
+  546  ls -la
+  547  combine 1 2
+  548  nano combine
+  549  rm combine
+  550  nano shell-examples 
+  551  shell-examples arg1 arg2 arg3
+  552  nano shell-examples 
+  553  shell-examples arg1 arg2 arg3
+  554  nano shell-examples 
+  555  shell-examples arg1 arg2 arg3
+  556  nano shell-examples 
+  557  shell-examples arg1 arg2 arg3
+  558  nano shell-examples 
+  559  shell-examples arg1 arg2 arg3
+  560  nano shell-examples 
+  561  shell-examples arg1 arg2 arg3
+  562  nano shell-examples 
+  563  shell-examples arg1 arg2 arg3
+  564  nano shell-examples 
+  565  shell-examples arg1 arg2 arg3
+  566  nano shell-examples 
+  567  shell-examples arg1 arg2 arg3
+  568  nano shell-examples 
+  569  shell-examples arg1 arg2 arg3
+  570  nano shell-examples 
+  571  nano combine
+  572  chmod 744 combine
+  573  ls -la
+  574  combine
+  575  combine 1 2
+  576  combine 1 2 5 7 865
+  577  shell-examples arg1 arg2 arg3
+  578  nano shell-examples 
+  579  ls -la
+  580  git-upload
+  581  nano shell-examples 
+  582  nano git-upload
+  583  ls -la
+  584  history > history27.09.2017.txt
+  585  git-upload
+  586  man >
+  587  pwd
+  588  ls -la
+  589  ls -l
+  590  cd Documents
+  591  ls -l
+  592  cd darbi
+  593  ls -l
+  594  cd DMI
+  595  ls -l
+  596  combine
+  597  nano combine
+  598  x=5
+  599  combine
+  600  5
+  601  AskName
+  602  nano combine
+  603  combine
+  604  nano combine
+  605  combine
+  606  nano combine
+  607  combine
+  608  nano combine
+  609  combine
+  610  nano combine 
+  611  nano compere
+  612  chmod 744 compere
+  613  ls -l
+  614  compere
+  615  nano compere
+  616  compere
+  617  nano compere
+  618  compere
+  619  nano compere
+  620  compere
+  621  nano compere
+  622  compere
+  623  nano compereV2
+  624  chmod 744 compereV2
+  625  ls -l
+  626  compereV2 
+  627  nano combine
+  628  nano average
+  629  chmod 744 average
+  630  ls -l
+  631  average
+  632  nano average
+  633  average
+  634  nano average
+  635  average
+  636  nano average
+  637  average
+  638  nano average
+  639  average
+  640  nano average
+  641  average
+  642  nano average
+  643  average
+  644  nano average
+  645  average
+  646  nano average
+  647  average
+  648  nano average
+  649  average
+  650  history > history11.10.2017.txt
