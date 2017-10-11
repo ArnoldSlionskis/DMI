@@ -4,12 +4,12 @@ sum=$(echo ".3 + 1.12" | bc -l)
 
 echo "enter a numbers once you have enought numbers input s"
 read x
-	until [ "$x"!="s" ]
+	until [ "$x"="s" ]
 	do
-	count=$(( count++))
+	count=$(( count + 1 ))
 	read x
-	y=$(echo "$y + $x" | bc -l)
+	y=$(echo "y + x" | bc -l)
 	done
-	ans=$(echo "$y / $count" | bc -l)
+	ans=$(echo "y / count" | bc -l)
 	echo $ans
 
