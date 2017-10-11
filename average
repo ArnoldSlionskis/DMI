@@ -3,6 +3,7 @@
 sum=$(echo ".3 + 1.12" | bc -l)
 
 echo "enter a numbers once you have enought numbers input s"
+read x
 	until [ "$x"!="s" ]
 	do
 	count=$(( count++))
