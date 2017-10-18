@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "Please enter three numbers"
+
+read x
+read y
+read z
+	if [ $x \> $y ]
+	then
+		a1=$x
+		a2=$y
+	else
+		a1=$y
+		a2=$x
+	fi
+		a3=$z
+	if [ $z \> $a1 ]
+	then
+		echo "no mazaka uz lielako $a2 $a1 $a3"
+	elif [ $z \< $a2 ]
+	then
+		echo "no mazaka uz lielako $a3 $a2 $a1"
+	else
+		echo "no mazaka uz lielako $a2 $a3 $a1"
+	fi
+
