@@ -1,0 +1,90 @@
+#!/bin/bash
+
+echo "lets begin"
+echo "enter how many numbers you want to analise"
+read x
+
+#GET THE NUMBERS
+count=0
+
+while [ "$count" -lt "$x" ]
+do
+	echo "enter a number fam"
+	read a
+	arr[$count]=$a
+	let "count = $count + 1"
+done
+
+#FIND MAX
+count2=0
+flag=0
+
+while [ "$count2" -lt "$x" ]
+do
+	if (( ${arr[$count2]} \> $flag ))
+	then
+		flag=${arr[$count2]}
+	else
+		flag=$flag
+	fi
+	let "count2 = $count2 + 1"
+done
+echo "The bigest number is: $flag"
+
+#FIND MIN
+count3=0
+flag3=${arr[0]}
+
+while [ "$count3" -lt "$x" ]
+do
+        if (( ${arr[$count3]} \< $flag3 ))
+        then
+                flag3=${arr[$count3]}
+        else
+                flag3=$flag3
+        fi
+        let "count3 = $count3 + 1"
+done
+echo "The smallest value is: $flag3"
+
+#Midle inputed number
+let "mid = $x / 2"
+echo "The midle inputed value was: ${arr[$mid]}"
+
+
+#ORGANISE ZE ARRAY
+
+readarray -t sorted < <(for a in "${arr[@]}"; do echo "$a"; done | sort)
+
+count4=0 
+echo "The numbers from min to max are:"
+for a in "${sorted[@]}"
+do
+arr2[$count4]=$a
+echo ${arr2[$count4]}
+let "count4 = $count4 + 1"
+done
+
+#GETING THE MODE
+echo "-------------------------------------------"
+
+count5=0
+let "c = $x - 1"
+while [ $count5 -lt $c ]
+do
+z[$count5]=0
+	if (( ${arr2[$count5]} == ${arr2[$count5 + 1]} ))
+	then
+	count6=0
+	
+	while (( ${arr2[$count5 + $count6]} == ${arr2[$count5 + $count6 + 1]} ))
+	do
+	let "count6 = $count6 + 1"
+	done
+	
+	let "z[$count5] = $count6 + 1"
+	fi
+echo ${z[$count5]}
+let "count5 = $count5 + 1"
+done
+
