@@ -7,4 +7,5 @@ do
 	z$count=$count
 	echo $count
 	echo $z$count
+	let "count = $count + 1"
 done
