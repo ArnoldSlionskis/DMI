@@ -1,0 +1,13 @@
+#!/usr/bin/python
+
+a = input("input an number")
+x = a
+count = 1
+count2 = 0
+print"%s|%1|%2||3while x < (a+10):
+	x += 1
+	while count < 11:
+		z = x%count
+		count += 1
+		count2 += 1
+
