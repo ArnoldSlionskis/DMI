@@ -72,7 +72,7 @@ count5=0
 let "c = $x - 1"
 while [ $count5 -lt $c ]
 do
-z[$count5]=0
+	z[$count5]=0
 	if (( ${arr2[$count5]} == ${arr2[$count5 + 1]} ))
 	then
 	count6=0
@@ -87,4 +87,3 @@ z[$count5]=0
 echo ${z[$count5]}
 let "count5 = $count5 + 1"
 done
-
